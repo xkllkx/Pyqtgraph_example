@@ -6,7 +6,7 @@ app = pg.mkQApp()
 data = array.array ('d')
 N = 200
 win = pg.GraphicsWindow ()
-win.setWindowTitle (u'pyqtgraph畫波型')
+win.setWindowTitle ('pyqtgraph example')
 win.resize(500, 300)
 
 p = win.addPlot()
